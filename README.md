@@ -51,20 +51,38 @@ src/
 public/
 ├── index.html
 
-### Prerequisites
+## Prerequisites
 Make sure you have the following installed:
 - Node.js (v16+ recommended)
 - npm
+- MySQL / MongoDB (as applicable)
 
----
+## Installation & Setup
 
-### Frontend Setup
-
+### 1. Clone the repository
 ```bash
+git clone https://github.com/AnanyaDasgupta123/ecart.git
+```
+
+## Backend Setup
+cd backend
+npm install
+nodemon
+
+Backend will run on:
+
+http://localhost:3000
+
+## Frontend Setup
+
+Open a new terminal and run:
+
+cd frontend
 npm install
 npm run dev
-```
-The application will start on:
+
+
+Frontend will run on:
 
 http://localhost:5173
 
